@@ -1,0 +1,9 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\QMETA-INF/classnames-jdk.properties\\E"
+  }, {
+    "pattern":"\\QMETA-INF/classnames.properties\\E"
+  }]},
+  "bundles":[]
+}

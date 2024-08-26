@@ -1,0 +1,187 @@
+[
+{
+  "name":"java.lang.Object",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.Thread",
+  "fields":[{"name":"threadLocalRandomProbe"}]
+},
+{
+  "name":"java.nio.Buffer",
+  "fields":[{"name":"address"}]
+},
+{
+  "name":"java.nio.DirectByteBuffer",
+  "methods":[{"name":"<init>","parameterTypes":["long","int"] }]
+},
+{
+  "name":"java.util.concurrent.ForkJoinTask",
+  "fields":[{"name":"aux"}, {"name":"status"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicBoolean",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.AtomicReference",
+  "fields":[{"name":"value"}]
+},
+{
+  "name":"java.util.concurrent.atomic.Striped64",
+  "fields":[{"name":"base"}, {"name":"cellsBusy"}]
+},
+{
+  "name":"jdk.internal.loader.BuiltinClassLoader",
+  "fields":[{"name":"ucp"}]
+},
+{
+  "name":"jdk.internal.loader.URLClassPath",
+  "methods":[{"name":"getURLs","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.cache.affinity.AffinityKey",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.events.EventType",
+  "allPublicFields":true,
+  "fields":[{"name":"EVTS_ALL"}, {"name":"EVTS_ALL_MINUS_METRIC_UPDATE"}]
+},
+{
+  "name":"org.apache.ignite.internal.binary.BinaryMetadata",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.binary.BinaryObjectExImpl",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.binary.BinaryObjectOffheapImpl",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.binary.BinaryTreeMap",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.events.DiscoveryCustomEvent",
+  "allPublicFields":true
+},
+{
+  "name":"org.apache.ignite.internal.processors.cache.GridCacheUtilityKey",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.processors.cache.binary.BinaryMetadataKey",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.processors.datastructures.CollocatedQueueItemKey",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.processors.datastructures.CollocatedSetItemKey",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.processors.platform.PlatformJavaObjectFactoryProxy",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.processors.platform.websession.PlatformDotNetSessionData",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.processors.platform.websession.PlatformDotNetSessionLockResult",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.util.future.GridFutureAdapter",
+  "fields":[{"name":"state"}]
+},
+{
+  "name":"org.apache.ignite.internal.util.lang.GridMapEntry",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.util.nio.GridNioCodecFilter",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.ignite.internal.util.nio.GridNioServer$AbstractNioClientWorker",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.ignite.internal.util.nio.GridNioServer$ByteBufferNioClientWorker",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.ignite.internal.util.nio.GridNioSessionImpl",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.ignite.internal.util.nio.GridSelectorNioSessionImpl",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.ignite.internal.util.typedef.T2",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.internal.util.worker.GridWorker",
+  "allDeclaredFields":true
+},
+{
+  "name":"org.apache.ignite.lang.IgniteBiTuple",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.apache.ignite.lang.IgniteUuid",
+  "methods":[{"name":"<init>","parameterTypes":[] }, {"name":"readResolve","parameterTypes":[] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.example.Dictionary",
+  "allDeclaredFields":true,
+  "methods":[{"name":"readResolve","parameterTypes":[] }, {"name":"writeObject","parameterTypes":["java.io.ObjectOutputStream"] }, {"name":"writeReplace","parameterTypes":[] }]
+},
+{
+  "name":"org.jsr166.ConcurrentLinkedDeque8",
+  "fields":[{"name":"head"}, {"name":"tail"}]
+},
+{
+  "name":"org.jsr166.ConcurrentLinkedDeque8$Node",
+  "fields":[{"name":"item"}, {"name":"next"}, {"name":"prev"}]
+},
+{
+  "name":"org.locationtech.jts.geom.Geometry"
+},
+{
+  "name":"org.springframework.context.ApplicationContext"
+},
+{
+  "name":"sun.misc.Unsafe",
+  "fields":[{"name":"theUnsafe"}],
+  "methods":[{"name":"copyMemory","parameterTypes":["java.lang.Object","long","java.lang.Object","long","long"] }, {"name":"invokeCleaner","parameterTypes":["java.nio.ByteBuffer"] }]
+},
+{
+  "name":"sun.nio.ch.SelectorImpl",
+  "fields":[{"name":"publicSelectedKeys"}, {"name":"selectedKeys"}]
+},
+{
+  "name":"sun.reflect.ReflectionFactory",
+  "methods":[{"name":"getReflectionFactory","parameterTypes":[] }, {"name":"newConstructorForSerialization","parameterTypes":["java.lang.Class","java.lang.reflect.Constructor"] }]
+}
+]
